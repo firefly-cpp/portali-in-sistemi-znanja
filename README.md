@@ -20,6 +20,19 @@ conda activate portali
 (portali) repository_root$ python -m pip install -r requirements.txt
 ```
 
+## Literatura
+
+[1] Karakatič, Sašo, and Fister Jr., Iztok. "[Strojno učenje: s Pythonom do prvega klasifikatorja](https://press.um.si/index.php/ump/catalog/book/643)." (2022). Univerza v Mariboru, Univerzitetna založba.
+
+[2] https://machinelearningmastery.com/
+
+## Povezave do dokumentacije knjižnic
+
+[1] [NiaPy](www.niapy.org)
+
+[2] [scikit-learn](https://scikit-learn.org/stable/)
+
+[3] [NiaAML](https://github.com/lukapecnik/NiaAML#readme)
 
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
