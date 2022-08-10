@@ -2,6 +2,19 @@
 
 Dodatno gradivo za predmet Portali in sistemi znanja
 
+## Namestitev okolja Conda
+
+### Linux
+
+#### 1. Pridobimo paket
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+
+#### 2. Zaženemo .sh datoteko
+```bash
+bash Miniconda3-latest-Linux-x86_64.sh
+```
 ## Vzpostavitev okolja
 
 #### 1. Ustvarimo okolje conda
