@@ -2,7 +2,7 @@
 
 Dodatno gradivo za predmet Portali in sistemi znanja
 
-## Namestitev okolja Conda
+## Namestitev okolja Miniconda
 
 ### Linux
 
