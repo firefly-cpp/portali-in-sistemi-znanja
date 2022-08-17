@@ -2,6 +2,23 @@
 
 Dodatno gradivo za predmet Portali in sistemi znanja
 
+## Namestitev Pythona in IDE-ja 
+
+### Windows
+Možnosti za namestitev programskega jezika je zelo veliko, nekaj izmed njih vključuje:
+* https://www.anaconda.com/ (Anaconda, vzpostavitev okolja je iz Anaconda Prompt enaka kot pri Linux, iz Anaconda s pomočjo GUI, glej [Podrobna navodila za Windows](./podrobna-navodila/README.md))
+* https://www.python.org/downloads/windows/ (Samo Python - priporočena je zadnja verzija 3.x.x, trenutno je na voljo 3.10.6)
+* PyCharm - JetBrains-ov IDE za Python 
+
+Za uporabo JetBrains paketa je potrebna licenca. Pridobi se s pomočjo @student.um.si maila.
+* https://account.jetbrains.com/licenses
+
+Ob izbiri PyCharm-a se priporoča namestitev preko JetBrains ToolBox-a. Tako je lažje upravljati z večimi IDEji, licencami, posodobitvami, projekti...
+* https://www.jetbrains.com/toolbox-app/ (namestitev IDE s pomočjo JetBrains ToolBox-a)
+* https://www.jetbrains.com/pycharm/ (samo PyCharm IDE)
+
+[Podrobna navodila za Windows](./podrobna-navodila/README.md)
+
 ## Namestitev okolja Miniconda
 
 ### Linux
