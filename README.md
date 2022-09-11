@@ -56,6 +56,12 @@ conda activate portali
 
 [2] https://machinelearningmastery.com/
 
+[3] Xu, Guandong, Yu Zong, and Zhenglu Yang. Applied data mining. CRC Press, 2013.
+
+[4] Vrbančič, Grega, et al. "NiaPy: Python microframework for building nature-inspired algorithms." Journal of Open Source Software 3.23 (2018): 613.
+
+[5] Engelbrecht, Andries P. Computational intelligence: an introduction. John Wiley & Sons, 2007.
+
 ## Povezave do dokumentacije knjižnic
 
 [1] [NiaPy](www.niapy.org)
@@ -64,6 +70,7 @@ conda activate portali
 
 [3] [NiaAML](https://github.com/lukapecnik/NiaAML#readme)
 
+[4] [pandas] https://pandas.pydata.org/docs/user_guide/index.html#user-guide
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
