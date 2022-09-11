@@ -6,4 +6,6 @@
 
 - GroceryStoreDataSet.csv je vzeta iz repozitorija Kaggle (Licenca: CC0: Public Domain)
 
+- sportydatagen.csv je vzeta iz repozitorija NiaARM
+
 - wiki_test_case.csv je povzeta po https://en.wikipedia.org/wiki/Lift_(data_mining)
