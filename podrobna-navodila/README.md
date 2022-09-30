@@ -1,17 +1,25 @@
 # Podrobnejša navodila za namestitev Pythona oziroma orodij za delo z njim
-Pozornost je treba tudi posvetiti temu, kaj želimo s Pythonom početi. Za same python skripte (\*.py) bolj potrebujemo IDE. Za Delovne zvezke Jupyter (\*.ipynb) je najbolj pogosto orodje kar brskalnik. Običajno IDE-ji npr. PyCharm) sicer podpirajo oboje.
+Pozornost je treba tudi posvetiti temu, kaj želimo s Pythonom početi. Za same python skripte (\*.py) bolj potrebujemo IDE. Za Delovne zvezke Jupyter (\*.ipynb) je najbolj pogosto orodje kar brskalnik. Običajno IDE-ji (npr. PyCharm) sicer podpirajo oboje.
 ## Anaconda
 Povlečemo si namestitveni paket
+
 ![Anaconda1](./slike/1Anaconda.png)
+
 Namestitmo program, pri čemer smo zelo pozorni da naslednji možnosti ostaneta takšni, kot sta privzeto. 
+
 ![Anaconda2](./slike/2Anaconda2022.05(64-bit).png)
+
 Iz Start Menija zaženemo *Anaconda Navigator*
+
 ![Anaconda3](./slike/3AnacondaStartMenu.png)
+
 Sedaj imamo na izbiro veliko orodij za delo s Pythonom. Najbolj pogost / priporočen je **Jupyter Notebook**
+
 ![Anaconda4](./slike/4AnacondaNavigator.png)
 
 ### Anaconda dodajanje programskih knjižnic
 **Dodatno** lahko iz menija na levi ustvarjamo virtualne namestitve jezika Python in v njih **nameščamo željene programske knjižnice**. Potrebno je biti pozoren, saj privzet filter kaže le že nameščene.
+
 ![Anaconda5](./slike/5AnacondaNavigator.png)
 
 ## Jupyter Notebook
@@ -34,6 +42,7 @@ Za začetek je priporočena ustvaritev računa in obisk strani, da si aktiviramo
 Sam *ToolBox* je dosegljiv na spletni strani: https://www.jetbrains.com/toolbox-app/.
 
 Nadaljevanje je preprosto, desno zgoraj kliknemo na kolešček in Log in. Preusmeri nas na spletno stran, po uspešnem vpisu je licenca za vsa orodja aktivirana.
+
 ![7JetBrains Toolbox.png](./slike/7JetBrainsToolbox.png)
 
 **Bonus:** Na vrhu ima tudi *Projects*, s katerim lahko direktno odpremo poljuben projekt iz **git** v izbranem IDE-ju.
@@ -49,4 +58,18 @@ Iz spletne strani https://www.jetbrains.com/pycharm/download/#section=windows pr
 
 ## Pure Python
 Sam **Python** si lahko namestimo tudi s trgovine Microsoft Store. S tem lahko delamo direktno iz cmd/PowerShell (doda v Path). Dodamo ga lahko tudi kot osnovo v IDE, kot je PyCharm. 
+
 ![9MicrosoftStore-Python.png](./slike/9MicrosoftStore-Python.png)
+
+## Odpiranje projekta iz diska
+
+Še ena izmed možnosti je, da imamo projekt na disku (clone with git) in ga želimo odpreti v IDE-ju. To lahko storimo tako, da v PyCharmu kliknemo na *File* in nato na *Open...*.
+Urejeni Python projekti običajno vsebujejo datoteko "requirements.txt", ki vsebuje vse potrebne knjižnice in njihove verzije. Če je datoteka prisotna, se nam bo v oknu za odpiranje projekta pokazala možnost *Install requirements*. 
+
+* Ko odpremo projekt, samo potrdimo, da želimo ustvariti virtualno okolje in namestiti vse potrebne knjižnice.
+
+![10AvtomatskoIzRequirements.txt.png](./slike/10AvtomatskoIzRequirements.txt.png)
+
+* Desno spodaj, če "interpreter" še ni izbran, pritisnemo na "\<No interpreter\>". Iz requirements.txt se nam meni samodejno izpolni, samo pritisnemo na *OK*
+
+![11RocnoIzRequirements.txt.png](./slike/11RocnoIzRequirements.txt.png)
