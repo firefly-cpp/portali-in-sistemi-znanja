@@ -7,7 +7,7 @@ Dodatno gradivo za predmet Portali in sistemi znanja
 ### Windows
 Možnosti za namestitev programskega jezika je zelo veliko, nekaj izmed njih vključuje:
 * https://www.anaconda.com/ (Anaconda, vzpostavitev okolja je iz Anaconda Prompt enaka kot pri Linux, iz Anaconda s pomočjo GUI, glej [Podrobna navodila za Windows](./podrobna-navodila/README.md))
-* https://www.python.org/downloads/windows/ (Samo Python - priporočena je zadnja verzija 3.x.x, trenutno je na voljo 3.10.6)
+* https://www.python.org/downloads/windows/ (Samo Python - priporočena je zadnja verzija 3.x.x, trenutno je na voljo 3.10.7)
 * PyCharm - JetBrains-ov IDE za Python 
 
 Za uporabo JetBrains paketa je potrebna licenca. Pridobi se s pomočjo @student.um.si maila.
