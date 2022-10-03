@@ -15,3 +15,34 @@
 - Celotno okolje je lahko vzpostavljeno v približno 30 minutah
 - Dodatne pakete lahko namestimo z enostavnim ukazom dnf install
 
+## Namestitev okolja Miniconda
+
+### Linux
+
+#### 1. Pridobimo paket
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+
+#### 2. Zaženemo .sh datoteko
+```bash
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+## Vzpostavitev okolja
+
+#### 1. Ustvarimo okolje conda
+```bash
+conda create -n portali python=3.10
+```
+
+#### 2. Aktiviramo ustvarjeno okolje
+```bash
+conda activate portali
+```
+
+#### 3. Namestitev paketov
+
+```bash
+(portali) repository_root$ python -m pip install -r requirements.txt
+```
+

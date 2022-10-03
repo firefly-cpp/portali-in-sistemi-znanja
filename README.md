@@ -4,63 +4,21 @@ Dodatno gradivo za predmet Portali in sistemi znanja
 
 ## Namestitev Pythona in IDE-ja 
 
-### Windows
-Možnosti za namestitev programskega jezika je zelo veliko, nekaj izmed njih vključuje:
-* https://www.anaconda.com/ (Anaconda, vzpostavitev okolja je iz Anaconda Prompt enaka kot pri Linux, iz Anaconda s pomočjo GUI, glej [Podrobna navodila za Windows](./podrobna-navodila/README.md))
-* https://www.python.org/downloads/windows/ (Samo Python - priporočena je zadnja verzija 3.x.x, trenutno je na voljo 3.10.7)
-* PyCharm - JetBrains-ov IDE za Python 
+[Podrobna navodila za Windows](./podrobna-navodila/WINDOWS.md)
+[Podrobna navodila za Linux](./podrobna-navodila/LINUX.md)
 
-Za uporabo JetBrains paketa je potrebna licenca. Pridobi se s pomočjo @student.um.si maila.
-* https://account.jetbrains.com/licenses
-
-Ob izbiri PyCharm-a se priporoča namestitev preko JetBrains ToolBox-a. Tako je lažje upravljati z večimi IDEji, licencami, posodobitvami, projekti...
-* https://www.jetbrains.com/toolbox-app/ (namestitev IDE s pomočjo JetBrains ToolBox-a)
-* https://www.jetbrains.com/pycharm/ (samo PyCharm IDE)
-
-[Podrobna navodila za Windows](./podrobna-navodila/README.md)
-
-## Namestitev okolja Miniconda
-
-### Linux
-
-#### 1. Pridobimo paket
-```bash
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-```
-
-#### 2. Zaženemo .sh datoteko
-```bash
-bash Miniconda3-latest-Linux-x86_64.sh
-```
-## Vzpostavitev okolja
-
-#### 1. Ustvarimo okolje conda
-```bash
-conda create -n portali python=3.10
-```
-
-#### 2. Aktiviramo ustvarjeno okolje
-```bash
-conda activate portali
-```
-
-#### 3. Namestitev paketov
-
-```bash
-(portali) repository_root$ python -m pip install -r requirements.txt
-```
 
 ## Literatura
 
-[1] Karakatič, Sašo, and Fister Jr., Iztok. "[Strojno učenje: s Pythonom do prvega klasifikatorja](https://press.um.si/index.php/ump/catalog/book/643)." (2022). Univerza v Mariboru, Univerzitetna založba.
+[1] S. Karakatič and I. Fister ml., Strojno učenje: S Pythonom do prvega klasifikatorja, 1st ed. Maribor, Slovenia: University of Maribor Press, 2022. doi: [10.18690/um.feri.1.2022](https://doi.org/10.18690/um.feri.1.2022).
 
-[2] https://machinelearningmastery.com/
+[2] J. Brownlee, “Machine Learning Mastery,” 2022. https://machinelearningmastery.com/ (accessed Oct. 03, 2022).
 
-[3] Xu, Guandong, Yu Zong, and Zhenglu Yang. Applied data mining. CRC Press, 2013.
+[3]G. Xu, Y. Zong, and Z. Yang, Applied Data Mining, 1st ed. Boca Raton, Florida, USA: CRC Press, 2013. doi: [10.1201/b15027](https://doi.org/10.1201/b15027).
 
-[4] Vrbančič, Grega, et al. "NiaPy: Python microframework for building nature-inspired algorithms." Journal of Open Source Software 3.23 (2018): 613.
+[4] G. Vrbančič, L. Brezočnik, U. Mlakar, D. Fister, and I. Fister Jr., “NiaPy: Python microframework for building nature-inspired algorithms,” J. Open Source Softw., vol. 3, no. 23, p. 613, Mar. 2018, doi: [10.21105/joss.00613](https://doi.org/10.21105/joss.00613).
 
-[5] Engelbrecht, Andries P. Computational intelligence: an introduction. John Wiley & Sons, 2007.
+[5] A. P. Engelbrecht, Computational Intelligence, Second edi. Chichester, UK: John Wiley & Sons, Ltd, 2007. doi: [10.1002/9780470512517](https://doi.org/10.1002/9780470512517).
 
 ## Povezave do dokumentacije knjižnic
 
@@ -70,7 +28,7 @@ conda activate portali
 
 [3] [NiaAML](https://github.com/lukapecnik/NiaAML#readme)
 
-[4] [pandas] https://pandas.pydata.org/docs/user_guide/index.html#user-guide
+[4] [pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
