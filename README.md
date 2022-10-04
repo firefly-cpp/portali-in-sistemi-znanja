@@ -1,6 +1,8 @@
-# Portali in sistemi znanja 2022/2023
+<h1 align="center">
+Portali in sistemi znanja 2022/2023 <br><br> <img width="200" height="200" src="./figures/logoPISZ_500.png">
+</h1>
 
-Dodatno gradivo za predmet Portali in sistemi znanja
+## Dodatno gradivo za predmet Portali in sistemi znanja
 
 ## Namestitev Pythona in IDE-ja 
 
