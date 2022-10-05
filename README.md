@@ -24,7 +24,7 @@ Portali in sistemi znanja 2022/2023 <br><br> <img width="200" height="200" src="
 
 ## Povezave do dokumentacije knjižnic
 
-[1] [NiaPy](www.niapy.org)
+[1] [NiaPy](https://niapy.org/)
 
 [2] [scikit-learn](https://scikit-learn.org/stable/)
 
