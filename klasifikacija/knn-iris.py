@@ -1,7 +1,6 @@
 # primer iz knjige: https://press.um.si/index.php/ump/catalog/book/643
 from sklearn.datasets import load_iris
-import seaborn as sns
-import matplotlib.pyplot as plt
+from sklearn.neighbors import KNeighborsClassifier
 
 # Naložimo podatke
 podatki = load_iris(as_frame = True)
@@ -20,16 +19,19 @@ y_ostali = podatki.target.drop (izbrana)
 
 x_os , y_os = 0, 1
 
-# Izrišemo ostale instance
-sns.scatterplot (x = X_ostali.iloc[:,x_os],
-                y = X_ostali.iloc[:,y_os],
-                hue = podatki.target_names[y_ostali],
-                palette = 'colorblind')
+# Inicializiramo klasifikator
+knn = KNeighborsClassifier(n_neighbors = 5, metric = 'manhattan')
 
-# Izrišemo eno izbrano instanco
-sns.scatterplot(x = [X_izbrana.iloc[x_os]],
-                y = [X_izbrana.iloc[y_os]],
-                hue = ['Neznan'], style = ['Neznan'],
-                markers = {'Neznan': '^'} )
+# Shranimo instance za primerjavo
+knn.fit(X_ostali, y_ostali)
 
-plt.show()
+# Napovemo razred izbrane instance
+napoved = knn.predict([ X_izbrana ])
+
+print (f'KNN je napovedal , da je instanca razreda {podatki.target_names[napoved]}.')
+print (f'Ta instanca je dejansko razreda {podatki.target_names [y_izbrana] }.')
+
+# Izbrani instanci najdemo pet najbližjih sosedov
+razdalje,sosedi = knn.kneighbors([X_izbrana], n_neighbors = 5 )
+print (f'Pet najbližjih : {sosedi} ')
+print (f'Razdalje od najbližjih do izbrane : { razdalje }')
