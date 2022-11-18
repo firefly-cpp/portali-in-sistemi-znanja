@@ -4,6 +4,19 @@ magenta='\033[0;35m'
 clear='\033[0m'
 
 echo -e "Running ${magenta}preprocessing${clear}"
-for f in priprava-podatkov/pandas/*.py; do python "$f"; done
+cd priprava-podatkov/pandas/
+for f in *.py; do python "$f" | grep Traceback ; done
+cd ../..
 echo -e "Running ${magenta}nature-inspired algorithms${clear}"
-for f in algoritmi-po-vzorih-iz-narave/*.py; do python "$f"; done
+cd algoritmi-po-vzorih-iz-narave/
+for f in *.py; do python "$f" | grep Traceback ; done
+cd ..
+echo -e "Running ${magenta}classification${clear}"
+cd klasifikacija
+for f in *.py; do python "$f" | grep Traceback ; done
+cd ..
+echo -e "Running ${magenta}classification 2${clear}"
+cd kakovost-klasifikacije
+for f in *.py; do python "$f" | grep Traceback ; done
+cd ..
+echo "Done"
