@@ -19,4 +19,7 @@ echo -e "Running ${magenta}classification 2${clear}"
 cd kakovost-klasifikacije
 for f in *.py; do python "$f" | grep Traceback ; done
 cd ..
+echo -e "Running ${magenta}automl${clear}"
+cd automl
+for f in *.py; do python "$f" | grep Traceback ; done
 echo "Done"
