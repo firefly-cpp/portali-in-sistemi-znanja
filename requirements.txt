@@ -4,3 +4,5 @@ niaaml
 scikit-learn
 numpy
 pandas
+seaborn
+matplotlib
