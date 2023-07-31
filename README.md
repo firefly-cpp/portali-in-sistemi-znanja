@@ -1,5 +1,5 @@
 <h1 align="center">
-Portali in sistemi znanja 2022/2023 <br><br> <img width="200" height="200" src="./.github/figures/logoPISZ_500.png">
+Portali in sistemi znanja 2023/2024 <br><br> <img width="200" height="200" src="./.github/figures/logoPISZ_500.png">
 </h1>
 
 ## Dodatno gradivo za predmet Portali in sistemi znanja
