@@ -2,7 +2,7 @@
 
 - Abalone.csv datoteka je vzeta iz UCI Machine Learning repozitorija
 
-- dataset.csv datoteka je vzeta iz repozitorija NiAML
+- dataset.csv datoteka je vzeta iz repozitorija NiaAML
 
 - GroceryStoreDataSet.csv je vzeta iz repozitorija Kaggle (Licenca: CC0: Public Domain)
 
