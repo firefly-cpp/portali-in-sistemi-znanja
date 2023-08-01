@@ -1,6 +1,6 @@
 from niaarm.dataset import Dataset
 
-data = Dataset("datasets/Abalone.csv")
+data = Dataset("../podatkovne-zbirke/Abalone.csv")
 
 print(data)
 
