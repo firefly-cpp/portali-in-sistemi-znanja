@@ -12,14 +12,14 @@ Ob izbiri PyCharm-a se priporoča namestitev preko JetBrains ToolBox-a. Tako je 
 * https://www.jetbrains.com/pycharm/ (samo PyCharm IDE)
 
 # Podrobnejša navodila za namestitev Pythona oziroma orodij za delo z njim
-Pozornost je treba tudi posvetiti temu, kaj želimo s Pythonom početi. Za same python skripte (\*.py) bolj potrebujemo IDE. Za Delovne zvezke Jupyter (\*.ipynb) je najbolj pogosto orodje kar brskalnik. Običajno IDE-ji (npr. PyCharm) sicer podpirajo oboje.
+Pozornost je treba tudi posvetiti temu, kaj želimo s Pythonom početi. Za same python skripte (\*.py) bolj potrebujemo IDE. Za delovne zvezke Jupyter (\*.ipynb) je najbolj pogosto orodje kar brskalnik. Običajno IDE-ji (npr. PyCharm) sicer podpirajo oboje.
 
 ## Anaconda
-Povlečemo si namestitveni paket
+Prenesemo si namestitveni paket
 
 ![Anaconda1](./slike/1Anaconda.png)
 
-Namestitmo program, pri čemer smo zelo pozorni da naslednji možnosti ostaneta takšni, kot sta privzeto. 
+Namestitmo program, pri čemer smo zelo pozorni, da naslednji možnosti ostaneta takšni, kot sta privzeto. 
 
 ![Anaconda2](./slike/2Anaconda2022.05(64-bit).png)
 
