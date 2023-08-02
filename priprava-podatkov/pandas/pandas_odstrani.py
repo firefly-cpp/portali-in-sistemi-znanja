@@ -1,9 +1,9 @@
 import pandas as pd
 
 trening = {
-  "trajanje": [100, 150, 50],
-  "dolzina": [55, 75, 23],
-  "vzpon": [100, 300, 250]
+    "trajanje": [100, 150, 50],
+    "dolzina": [55, 75, 23],
+    "vzpon": [100, 300, 250]
 }
 
 df = pd.DataFrame(trening)

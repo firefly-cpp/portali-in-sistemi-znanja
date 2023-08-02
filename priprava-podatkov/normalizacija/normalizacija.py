@@ -19,4 +19,4 @@ print(Y)
 normaliziran_X = preprocessing.normalize(X)
 
 # izpis normalizacije
-print (normaliziran_X)
+print(normaliziran_X)

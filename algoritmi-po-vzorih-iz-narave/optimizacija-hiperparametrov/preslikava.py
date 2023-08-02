@@ -7,7 +7,7 @@ def get_hyperparameters(x):
     algorithm = algorithms[int(x[2] * 2)]
     leaf_size = int(10 + x[3] * 40)
 
-    params =  {
+    params = {
         'n_neighbors': n_neighbors,
         'weights': weights,
         'algorithm': algorithm,
@@ -15,8 +15,9 @@ def get_hyperparameters(x):
     }
     return params
 
+
 sol = [0.4, 0.22, 0.70, 0.79]
 
 parametri = get_hyperparameters(sol)
 
-print (parametri)
+print(parametri)

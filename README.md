@@ -6,7 +6,7 @@ Portali in sistemi znanja 2023/2024 <br><br> <img width="200" height="200" src="
 
 ## Namestitev Pythona in IDE-ja 
 
-[Podrobna navodila za Windows](./podrobna-navodila/WINDOWS.md)
+[Podrobna navodila za Windows](./podrobna-navodila/WINDOWS.md)  
 [Podrobna navodila za Linux](./podrobna-navodila/LINUX.md)
 
 

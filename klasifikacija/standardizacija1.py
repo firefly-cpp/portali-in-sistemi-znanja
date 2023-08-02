@@ -2,9 +2,9 @@
 from sklearn.datasets import load_iris
 
 # Naložimo podatke
-podatki = load_iris(as_frame = True)
+podatki = load_iris(as_frame=True)
 
-print ('Povprečja pred standardizacijo: ')
-print (podatki.data.mean (axis = 0 ))
-print ('Standardni odkloni pred standardizacijo: ')
-print (podatki.data.std (axis = 0))
+print('Povprečja pred standardizacijo: ')
+print(podatki.data.mean(axis=0))
+print('Standardni odkloni pred standardizacijo: ')
+print(podatki.data.std(axis=0))

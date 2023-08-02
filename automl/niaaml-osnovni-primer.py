@@ -3,7 +3,6 @@
 from niaaml import PipelineOptimizer, Pipeline
 from niaaml.data import BasicDataReader
 import numpy
-import pandas
 
 # ustvarimo naključne podatke
 data_reader = BasicDataReader(
@@ -14,13 +13,17 @@ data_reader = BasicDataReader(
 # definiramo komponente
 pipeline_optimizer = PipelineOptimizer(
     data=data_reader,
-    classifiers=['AdaBoost', 'Bagging', 'MultiLayerPerceptron', 'RandomForest', 'ExtremelyRandomizedTrees', 'LinearSVC'],
-    feature_selection_algorithms=['SelectKBest', 'SelectPercentile', 'ParticleSwarmOptimization', 'VarianceThreshold'],
+    classifiers=['AdaBoost', 'Bagging', 'MultiLayerPerceptron',
+                 'RandomForest', 'ExtremelyRandomizedTrees', 'LinearSVC'],
+    feature_selection_algorithms=[
+        'SelectKBest', 'SelectPercentile', 'ParticleSwarmOptimization', 'VarianceThreshold'],
     feature_transform_algorithms=['Normalizer', 'StandardScaler']
 )
 
 # klic modificiranega algoritma (dve fazi optimizacije)
-pipeline1 = pipeline_optimizer.run('Accuracy', 15, 15, 300, 300, 'ParticleSwarmAlgorithm', 'ParticleSwarmAlgorithm')
+pipeline1 = pipeline_optimizer.run(
+    'Accuracy', 15, 15, 300, 300, 'ParticleSwarmAlgorithm', 'ParticleSwarmAlgorithm')
 
 # klic originalnega algoritma (ena faza optimizacije)
-pipeline2 = pipeline_optimizer.run_v1('Accuracy', 15, 400, 'ParticleSwarmAlgorithm')
+pipeline2 = pipeline_optimizer.run_v1(
+    'Accuracy', 15, 400, 'ParticleSwarmAlgorithm')

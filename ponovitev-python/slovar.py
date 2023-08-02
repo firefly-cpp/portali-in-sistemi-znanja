@@ -1,17 +1,17 @@
 slovar = {
-"artikel" : "sliva" ,
-"poreklo" : "Slovenija" ,
-"kolicina" : 50
+    "artikel": "sliva",
+    "poreklo": "Slovenija",
+    "kolicina": 50
 }
 
-print (slovar['poreklo'])
+print(slovar['poreklo'])
 
-print (len(slovar))
+print(len(slovar))
 
-print (slovar.get('kolicina'))
+print(slovar.get('kolicina'))
 
-print (slovar.keys())
+print(slovar.keys())
 
-print (slovar.values())
+print(slovar.values())
 
-print (slovar.items())
+print(slovar.items())

@@ -4,8 +4,9 @@ def manhattan(tocka1, tocka2):
         razdalja += abs(y_1 - x_1)
     return razdalja
 
-# test
-x1 = (1,2,3)
-x2 = (3,4,5.5)
 
-print ("Razdalja je: ", manhattan(x1, x2))
+# test
+x1 = (1, 2, 3)
+x2 = (3, 4, 5.5)
+
+print("Razdalja je: ", manhattan(x1, x2))

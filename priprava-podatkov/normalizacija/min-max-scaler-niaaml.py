@@ -18,11 +18,11 @@ print(Y)
 
 min_max = MinMaxScaler(feature_range=(0, 1))
 novi_X = min_max.fit_transform(X)
-print (novi_X)
+print(novi_X)
 
-### primer 2
-X2 = [ [10, 20], [30, 40], [150, 500], [350, 10], [800, 950] ]
+# primer 2
+X2 = [[10, 20], [30, 40], [150, 500], [350, 10], [800, 950]]
 
 min_max2 = MinMaxScaler(feature_range=(0, 1))
 novi_X2 = min_max2.fit_transform(X2)
-print (novi_X2)
+print(novi_X2)

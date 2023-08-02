@@ -19,4 +19,4 @@ print(Y)
 standardiziran_X = preprocessing.scale(X)
 
 # izpis standardizacije
-print (standardiziran_X)
+print(standardiziran_X)
