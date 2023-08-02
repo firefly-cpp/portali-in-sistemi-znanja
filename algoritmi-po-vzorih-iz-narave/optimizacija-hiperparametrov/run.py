@@ -19,7 +19,7 @@ def get_hyperparameters(x):
     algorithm = algorithms[int(x[2] * 2)]
     leaf_size = int(10 + x[3] * 40)
 
-    params =  {
+    params = {
         'n_neighbors': n_neighbors,
         'weights': weights,
         'algorithm': algorithm,
@@ -50,11 +50,15 @@ class KNNHyperparameterOptimization(Problem):
 
 X, y = load_breast_cancer(return_X_y=True)
 
-X_search, X_validate, y_search, y_validate = train_test_split(X, y, test_size=0.8, random_state=1234)
-X_search_train, X_search_test, y_search_train, y_search_test = train_test_split(X_search, y_search, test_size=0.8, random_state=1234)
+X_search, X_validate, y_search, y_validate = train_test_split(
+    X, y, test_size=0.8, random_state=1234)
+X_search_train, X_search_test, y_search_train, y_search_test = train_test_split(
+    X_search, y_search, test_size=0.8, random_state=1234)
 
-problem = KNNHyperparameterOptimization(X_search_train, X_search_test, y_search_train, y_search_test)
-task = Task(problem, max_evals=100, optimization_type=OptimizationType.MAXIMIZATION)
+problem = KNNHyperparameterOptimization(
+    X_search_train, X_search_test, y_search_train, y_search_test)
+task = Task(problem, max_evals=100,
+            optimization_type=OptimizationType.MAXIMIZATION)
 algorithm = HybridBatAlgorithm(population_size=40, differential_weight=0.8)
 
 best_params, best_accuracy = algorithm.run(task)
@@ -65,7 +69,8 @@ best_model = get_classifier(best_params)
 default_model = KNeighborsClassifier()
 
 default_scores = cross_val_score(default_model, X, y, cv=10, n_jobs=-1)
-best_scores = cross_val_score(best_model, X_validate, y_validate, cv=10, n_jobs=-1)
+best_scores = cross_val_score(
+    best_model, X_validate, y_validate, cv=10, n_jobs=-1)
 
 print('default model mean accuracy:', default_scores.mean())
 print('Best model mean accuracy:', best_scores.mean())

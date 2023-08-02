@@ -8,7 +8,8 @@ This example presents how to use implemented feature selection algorithms that u
 
 # prepare data reader using csv file
 data_reader = CSVDataReader(
-    src=os.path.dirname(os.path.abspath(__file__)) + "/example_files/dataset.csv",
+    src=os.path.dirname(os.path.abspath(__file__)) +
+    "/../normalizacija/dataset.csv",
     has_header=False,
     contains_classes=True,
 )
@@ -25,4 +26,3 @@ features_mask = fs.select_features(data_reader.get_x(), data_reader.get_y())
 
 # print feature selection algorithm in a user-friendly form
 print(fs.to_string())
-

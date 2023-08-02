@@ -9,11 +9,13 @@ class MyProblem(Problem):
         super().__init__(dimension, lower, upper, *args, **kwargs)
 
     def _evaluate(self, x):
-        return np.sum(x ** 2)
+        return np.sum(x**2)
 
 
 # we will run Particle Swarm Algorithm on custom problem
 task = Task(problem=MyProblem(dimension=10), max_iters=1000)
-algo = ParticleSwarmAlgorithm(population_size=40, c1=2.0, c2=2.0, w=0.7, min_velocity=-4, max_velocity=4)
+algo = ParticleSwarmAlgorithm(
+    population_size=40, c1=2.0, c2=2.0, w=0.7, min_velocity=-4, max_velocity=4
+)
 best = algo.run(task=task)
-print('%s -> %s ' % (best[0], best[1]))
+print("%s -> %s " % (best[0], best[1]))

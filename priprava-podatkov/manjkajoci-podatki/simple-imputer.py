@@ -9,4 +9,4 @@ imputer = imputer.fit(df[['average_hr']])
 df['average_hr'] = imputer.transform(df[['average_hr']])
 # za celotni podatkovni okvir
 # df.iloc[:,:] = imputer.transform(df)
-print (df)
+print(df)

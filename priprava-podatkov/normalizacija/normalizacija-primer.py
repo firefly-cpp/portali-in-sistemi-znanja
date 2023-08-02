@@ -7,7 +7,7 @@ max_val = np.max(val)
 
 normalized = [0.0] * len(val)
 for i in range(len(val)):
-    normalized[i] = np.round(((val[i] - min_val) / (max_val - min_val)), decimals=2)
+    normalized[i] = np.round(
+        ((val[i] - min_val) / (max_val - min_val)), decimals=2)
 
-print (normalized)
-    
+print(normalized)
