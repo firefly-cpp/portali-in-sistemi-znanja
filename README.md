@@ -32,6 +32,8 @@ Portali in sistemi znanja 2023/2024 <br><br> <img width="200" height="200" src="
 
 [4] [pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 
+[5] [seaborn](https://seaborn.pydata.org/)
+
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 Material in this folder is licensed under a
