@@ -87,3 +87,50 @@ Urejeni Python projekti običajno vsebujejo datoteko "requirements.txt", ki vseb
 * Desno spodaj, če "interpreter" še ni izbran, pritisnemo na "\<No interpreter\>". Iz requirements.txt se nam meni samodejno izpolni, samo pritisnemo na *OK*
 
 ![11RocnoIzRequirements.txt.png](./slike/11RocnoIzRequirements.txt.png)
+
+## Poetry
+### Namestitev Poetry
+Če imate na sistemu nameščeno starejšo verzijo Python-a (<3.11), je za namestitev treba v PowerShell-u izvesti naslednji ukaz:
+```bash
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+```
+Če imate na sistemu nameščen Python 3.11, je za namestitev treba v PowerShell-u izvesti naslednji ukaz:
+```bash
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+```
+Namestitev lahko izvedete tudi s pomočjo pip3 ukaza:
+```bash
+pip3 install poetry
+```
+### Inicializacija projekta
+Za inicializacijo projekta se premaknemo v mapo, kjer želimo inicializirati projekt, in izvedemo ukaz:
+```bash
+poetry init
+```
+Po izvedbi ukaza nam ukazna vrstica ponudi interaktiven vmesnik za vnos podatkov o projektu.
+### Delo s paketi
+Za nameščanje paketov se premaknemo v mapo, kjer je inicializiran projekt, in izvedemo ukaz:
+```bash
+poetry add ime_paketa
+```
+Za odstranjevanje paketov se premaknemo v mapo, kjer je inicializiran projekt, in izvedemo ukaz:
+```bash
+poetry remove ime_paketa
+```
+### Odstranitev Poetry
+Če ste Poetry namestili s pomočjo prvih dveh ukazov, je za odstranitev najprej treba nastaviti okoljsko spremenljivko ``POETRY_UNINSTALL=1``:
+```bash
+set POETRY_UNINSTALL=1
+```
+Če imate na sistemu nameščeno starejšo verzijo Python-a (<3.11), je za odstranitev treba izvesti naslednji ukaz:
+```bash
+curl -sSL https://install.python-poetry.org | python -
+```
+Če imate na sistemu nameščen Python 3.11, je za odstranitev treba izvesti naslednji ukaz:
+```bash
+curl -sSL https://install.python-poetry.org | py -
+```
+Če ste za namestitev uporabili pip3 ukaz, je za odstranitev treba izvesti naslednji ukaz:
+```bash
+pip3 uninstall poetry
+```
