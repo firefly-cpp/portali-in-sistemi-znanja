@@ -44,7 +44,7 @@ Sedaj imamo na izbiro veliko orodij za delo s Pythonom. Najbolj pogost / priporo
 Ko ga zaženemo, se nam odpre privzet spletni brskalnik in naslov (privzeto) http://localhost:8888/ 
 
 ### Vzpostavitev okolja - Anaconda virtual environment
-**Čeprav conda ustvari svoj "base" virtualenv**, je smiselno ustvariti svoejga, saj lahko pri programskem jeziku Python akr hitro nastopjio problemi z različnimi verzijami programskih knjižnic. 
+**Čeprav conda ustvari svoj "base" virtualenv**, je smiselno ustvariti svoejga, saj lahko pri programskem jeziku Python kar hitro nastopjio problemi z različnimi verzijami programskih knjižnic.
 
 ![Anaconda8](./slike/8AnacondaVirtualEnv.png)
 
