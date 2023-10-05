@@ -1,90 +1,96 @@
 # Windows
 Možnosti za namestitev programskega jezika je zelo veliko, nekaj izmed njih vključuje:
-* https://www.anaconda.com/ (Anaconda, vzpostavitev okolja je iz Anaconda Prompt enaka kot pri Linux, iz Anaconda s pomočjo GUI, glej [Podrobna navodila za Windows](./podrobna-navodila/WINDOWS.md))
-* https://www.python.org/downloads/windows/ (Samo Python - priporočena je zadnja verzija 3.x.x, trenutno je na voljo 3.10.7)
-* PyCharm - JetBrains-ov IDE za Python 
-
-Za uporabo JetBrains paketa je potrebna licenca. Pridobi se s pomočjo @student.um.si maila.
-* https://account.jetbrains.com/licenses
-
-Ob izbiri PyCharm-a se priporoča namestitev preko JetBrains ToolBox-a. Tako je lažje upravljati z večimi IDEji, licencami, posodobitvami, projekti...
-* https://www.jetbrains.com/toolbox-app/ (namestitev IDE s pomočjo JetBrains ToolBox-a)
-* https://www.jetbrains.com/pycharm/ (samo PyCharm IDE)
+* Anaconda
+    * [https://www.anaconda.com](https://www.anaconda.com)
+    * Vzpostavitev okolja iz Anaconda Prompt je enaka kot pri Linux.
+    * Za vzpostavitev okolja s pomočjo Anaconda GUI glej [Podrobna navodila za Windows](./podrobna-navodila/WINDOWS.md).
+* Python
+    * [https://www.python.org/downloads/windows](https://www.python.org/downloads/windows)
+    * Priporočena je zadnja verzija 3.x.x, trenutno je na voljo 3.10.7.
+* PyCharm
+    * https://www.jetbrains.com/pycharm
+    * JetBrains-ov IDE za Python.
+    * Za uporabo JetBrains paketa je potrebna licenca, ki se pridobi s pomočjo @student.um.si.
+        * https://account.jetbrains.com/licenses
+    * Ob izbiri PyCharm-a se priporoča namestitev preko JetBrains ToolBox. Tako je lažje upravljati z več IDE-ji, licencami, posodobitvami in projekti.
+        * https://www.jetbrains.com/toolbox-app
 
 # Podrobnejša navodila za namestitev Pythona oziroma orodij za delo z njim
-Pozornost je treba tudi posvetiti temu, kaj želimo s Pythonom početi. Za same python skripte (\*.py) bolj potrebujemo IDE. Za delovne zvezke Jupyter (\*.ipynb) je najbolj pogosto orodje kar brskalnik. Običajno IDE-ji (npr. PyCharm) sicer podpirajo oboje.
+Pozornost je treba tudi posvetiti temu, kaj želimo s Python-om početi. Za Python skripte (\*.py) potrebujemo IDE. Za delovne zvezke Jupyter (\*.ipynb) je najbolj pogosto orodje kar brskalnik. Običajno IDE-ji (npr. PyCharm) podpirajo oboje.
 
 ## Anaconda
-Prenesemo si namestitveni paket
+Najprej si prenesemo namestitveni paket.
 
 ![Anaconda1](./slike/1Anaconda.png)
 
-Namestitmo program, pri čemer smo zelo pozorni, da naslednji možnosti ostaneta takšni, kot sta privzeto. 
+Nato namestimo program, pri čemer smo zelo pozorni, da naslednji možnosti ostaneta takšni, kot sta privzeto. 
 
 ![Anaconda2](./slike/2Anaconda2022.05(64-bit).png)
 
-Iz Start Menija zaženemo *Anaconda Navigator*
+Iz Start Menija zaženemo *Anaconda Navigator*.
 
 ![Anaconda3](./slike/3AnacondaStartMenu.png)
 
-Sedaj imamo na izbiro veliko orodij za delo s Pythonom. Najbolj pogost / priporočen je **Jupyter Notebook**
+Sedaj imamo na izbiro veliko orodij za delo s Pythonom. Najbolj pogost / priporočen je **Jupyter Notebook**.
 
 ![Anaconda4](./slike/4AnacondaNavigator.png)
 
-### Anaconda dodajanje programskih knjižnic
-**Dodatno** lahko iz menija na levi ustvarjamo virtualne namestitve jezika Python in v njih **nameščamo željene programske knjižnice**. Potrebno je biti pozoren, saj privzet filter kaže le že nameščene.
+### Dodajanje programskih knjižnic
+**Dodatno** lahko iz menija na levi ustvarjamo virtualne namestitve jezika Python in vanje **nameščamo želene programske knjižnice**. Potrebno je biti pozoren, saj privzet filter kaže le že nameščene.
 
 ![Anaconda5](./slike/5AnacondaNavigator.png)
 
 ## Jupyter Notebook
-Če Jupyter Notebook ni privzeto nameščen, samo pritisnemo na gumb *Install*
+Če Jupyter Notebook ni privzeto nameščen, samo pritisnemo na gumb *Install*.
 
 ![Anaconda6](./slike/6AnacondaNavigatorJupyter.png)
 
-Ko ga zaženemo, se nam odpre privzet spletni brskalnik in naslov (privzeto) http://localhost:8888/ 
+Ko ga zaženemo, se na privzetem spletnem brskalniku privzeto odpre naslov http://localhost:8888. 
 
 ### Vzpostavitev okolja - Anaconda virtual environment
-**Čeprav conda ustvari svoj "base" virtualenv**, je smiselno ustvariti svoejga, saj lahko pri programskem jeziku Python kar hitro nastopjio problemi z različnimi verzijami programskih knjižnic.
+**Čeprav conda ustvari svoj "base" virtualenv**, je smiselno ustvariti svojega, saj lahko pri programskem jeziku Python hitro nastopijo problemi z različnimi verzijami programskih knjižnic. 
 
 ![Anaconda8](./slike/8AnacondaVirtualEnv.png)
 
-S pritiskom na gumb "**Create**" nam ustvari kopijo osnovnega environmenta, skupaj z vsemi osnovnimi programskimi knjižnicami, ki se najbolj pogosto uporabljajo.
+S pritiskom na gumb "**Create**" nam ustvari kopijo osnovnega okolja, skupaj z vsemi osnovnimi programskimi knjižnicami, ki se najbolj pogosto uporabljajo.
 
 ## ToolBox
 
-Za začetek je priporočena ustvaritev računa in obisk strani, da si aktiviramo licenco: https://account.jetbrains.com/licenses 
-Sam *ToolBox* je dosegljiv na spletni strani: https://www.jetbrains.com/toolbox-app/.
+Za začetek je priporočena ustvaritev računa in obisk strani (https://account.jetbrains.com/licenses), da si aktiviramo licenco. 
 
-Nadaljevanje je preprosto, desno zgoraj kliknemo na kolešček in Log in. Preusmeri nas na spletno stran, po uspešnem vpisu je licenca za vsa orodja aktivirana.
+Sam *ToolBox* je dosegljiv na spletni strani: https://www.jetbrains.com/toolbox-app.
+
+Nadaljevanje je preprosto. Desno zgoraj kliknemo na kolešček in izberemo "Log in". Stran nas nato preusmeri na spletno stran, kjer se lahko vpišemo. Po uspešnem vpisu je licenca aktivirana za vsa orodja.
 
 ![7JetBrains Toolbox.png](./slike/7JetBrainsToolbox.png)
 
-**Bonus:** Na vrhu ima tudi *Projects*, s katerim lahko direktno odpremo poljuben projekt iz **git** v izbranem IDE-ju.
+**Bonus:** Na vrhu ima tudi *Projects*, s katerim lahko neposredno odpremo poljuben projekt iz **git** v izbranem IDE-ju.
 
 ## PyCharm
 Opcija 1 - **Toolbox**
 
-Pod *Available* izberemo *PyCharm Professional*, ko se namesti se bo pojavil na vrhu pod *Installed*. Samo pritisnemo nanj in že se odpre. 
+Pod *Available* izberemo *PyCharm Professional*. Ko se namesti, se bo pojavil na vrhu pod *Installed*. Samo pritisnemo nanj in že se odpre. 
 
-Opcija 2 - Direktna namestitev
+Opcija 2 - Neposredna namestitev
 
-Iz spletne strani https://www.jetbrains.com/pycharm/download/#section=windows prenesemo namestitveni paket. Pri tej opciji moramo po inštalaciji dodatno vpisati podatke za aktivacijo licence.
+Iz spletne strani (https://www.jetbrains.com/pycharm/download/#section=windows) prenesemo namestitveni paket. Pri tej opciji moramo po inštalaciji dodatno vpisati podatke za aktivacijo licence.
 
 ## Pure Python
-Sam **Python** si lahko namestimo tudi s trgovine Microsoft Store. S tem lahko delamo direktno iz cmd/PowerShell (doda v Path). Dodamo ga lahko tudi kot osnovo v IDE, kot je PyCharm. 
+Sam **Python** si lahko namestimo tudi iz trgovine Microsoft Store. S tem lahko delamo neposredno iz cmd/PowerShell (samodejno se doda v Path). Dodamo ga lahko tudi kot osnovo v IDE, kot je PyCharm. 
 
 ![9MicrosoftStore-Python.png](./slike/9MicrosoftStore-Python.png)
 
 ## Odpiranje projekta iz diska
 
 Še ena izmed možnosti je, da imamo projekt na disku (clone with git) in ga želimo odpreti v IDE-ju. To lahko storimo tako, da v PyCharmu kliknemo na *File* in nato na *Open...*.
+
 Urejeni Python projekti običajno vsebujejo datoteko "requirements.txt", ki vsebuje vse potrebne knjižnice in njihove verzije. Če je datoteka prisotna, se nam bo v oknu za odpiranje projekta pokazala možnost *Install requirements*. 
 
-* Ko odpremo projekt, samo potrdimo, da želimo ustvariti virtualno okolje in namestiti vse potrebne knjižnice.
+* Ko odpremo projekt, potrdimo, da želimo ustvariti virtualno okolje in namestiti vse potrebne knjižnice.
 
 ![10AvtomatskoIzRequirements.txt.png](./slike/10AvtomatskoIzRequirements.txt.png)
 
-* Desno spodaj, če "interpreter" še ni izbran, pritisnemo na "\<No interpreter\>". Iz requirements.txt se nam meni samodejno izpolni, samo pritisnemo na *OK*
+* Če "interpreter" še ni izbran, desno spodaj pritisnemo na "\<No interpreter\>". Iz requirements.txt se meni samodejno izpolni. Nato je treba pritisniti na *OK*.
 
 ![11RocnoIzRequirements.txt.png](./slike/11RocnoIzRequirements.txt.png)
 
