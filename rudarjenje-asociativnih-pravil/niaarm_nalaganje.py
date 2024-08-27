@@ -1,7 +1,12 @@
+import os
 import pandas as pd
 from niaarm import Dataset
 
-df = pd.read_csv('../podatkovne-zbirke/Abalone.csv')
+path = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), 
+    '..', 'podatkovne-zbirke', 'Abalone.csv'
+)
+df = pd.read_csv(path)
 
 data = Dataset(df)
 print(data)
