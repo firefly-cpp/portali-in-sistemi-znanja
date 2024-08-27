@@ -1,6 +1,11 @@
+import os
 import pandas as pd
 
-zbirka = pd.read_csv("../../podatkovne-zbirke/dataset.csv")
+path = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), 
+    '..', '..', 'podatkovne-zbirke', 'dataset.csv'
+)
+zbirka = pd.read_csv(path)
 
 print(zbirka.head())
 
