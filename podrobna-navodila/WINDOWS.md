@@ -6,7 +6,7 @@ Možnosti za namestitev programskega jezika je zelo veliko, nekaj izmed njih vkl
     * Za vzpostavitev okolja s pomočjo Anaconda GUI glej [Podrobna navodila za Windows](./podrobna-navodila/WINDOWS.md).
 * Python
     * [https://www.python.org/downloads/windows](https://www.python.org/downloads/windows)
-    * Priporočena je zadnja verzija 3.x.x, trenutno je na voljo 3.10.7.
+    * Priporočena je zadnja verzija 3.x.x, trenutno je na voljo 3.13.
 * PyCharm
     * https://www.jetbrains.com/pycharm
     * JetBrains-ov IDE za Python.
