@@ -3,7 +3,7 @@ Možnosti za namestitev programskega jezika je zelo veliko, nekaj izmed njih vkl
 * Anaconda
     * [https://www.anaconda.com](https://www.anaconda.com)
     * Vzpostavitev okolja iz Anaconda Prompt je enaka kot pri Linux.
-    * Za vzpostavitev okolja s pomočjo Anaconda GUI glej [Podrobna navodila za Windows](./podrobna-navodila/WINDOWS.md).
+    * Za vzpostavitev okolja s pomočjo Anaconda GUI glej [Podrobnejša navodila za namestitev Pythona oziroma orodij za delo z njim](#podrobnejša-navodila-za-namestitev-pythona-oziroma-orodij-za-delo-z-njim).
 * Python
     * [https://www.python.org/downloads/windows](https://www.python.org/downloads/windows)
     * Priporočena je zadnja verzija 3.x.x, trenutno je na voljo 3.13.
